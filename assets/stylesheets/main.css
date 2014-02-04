@@ -1,0 +1,98 @@
+---
+
+---
+
+{% include skeleton/stylesheets/base.css %}
+{% include skeleton/stylesheets/layout.css %}
+{% include skeleton/stylesheets/skeleton.css %}
+
+/* include own style below */
+
+.container {
+  margin-top: 20px;
+}
+
+a {
+  color: #258;
+}
+
+a:visited {
+  color: #427;
+}
+
+a:hover {
+  color: #c22;
+}
+
+blockquote cite a:hover {
+  color: #c22;
+  font-weight: bold;
+}
+
+#nav {
+  margin: 50px 0 0 0;
+}
+
+#nav ul li {
+  font-size: 1.2em;
+  display: inline;
+  margin: 0 30px 0 0;
+  margin-bottom: 130px;
+}
+
+#nav a, #navbar a {
+  color: #777;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#nav a:hover, #navbar a:hover {
+  color: #c22;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#navbar {
+  margin: 5px 0 0 10px;
+  height: 50px;
+}
+
+#navbar ul li {
+  font-size: 1.2em;
+  display: inline;
+  margin: 0 30px 0 0;
+}
+
+#sub-menu {
+  display: none;
+  visibility: hidden;
+}
+
+ul #sub-menu li {
+  display: block;
+}
+
+/*.name:hover {
+  -webkit-transform: rotate(-1deg);
+     -moz-transform: rotate(-1deg);
+       -o-transform: rotate(-1deg);
+      -ms-transform: rotate(-1deg);
+          transform: rotate(-1deg);
+}*/
+
+.page-title {
+  height: 50px;
+}
+
+.tagline {
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.float-right {
+  float: right;
+}
+
+.pattern-diagonal {
+  background: url("/assets/images/noise-white.jpg") repeat;
+}

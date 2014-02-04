@@ -1,0 +1,30 @@
+exclude: ["README.md", "Rakefile"]
+pygments: true
+
+title : Choosing Coding Bootcamps book
+author :
+  name : David Kim
+  email : codingbootcamps@gmail.com
+  github : codingbootcamps
+  twitter : findinbay
+  feedburner :
+
+production_url : http://choosingcodingbootcamps.com
+
+BASE_PATH : false
+ASSET_PATH : false
+
+sharing :
+  provider : false
+
+analytics :
+  provider : google
+  google :
+      tracking_id : 'UA-42588939-3'
+  getclicky :
+    site_id :
+
+comments:
+  provider : disqus
+  disqus:
+    short_name: choosingcodingbootcamps
