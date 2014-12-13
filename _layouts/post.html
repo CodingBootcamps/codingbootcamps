@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{% include setup %}
+
+{% include navbar.html %}
+
+<div class="sixteen columns">
+  <div class="page-title">
+    {% if page.title %}
+    <h2>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h2>
+    {% endif %}
+  </div>
+</div>
+
+<div class="sixteen columns">
+  {% include share_tweet.js %}
+  <br /><br />
+  {{ content }}
+
+  {% include comments %}
+</div>

@@ -1,0 +1,11 @@
+---
+layout: page
+title: "Book Blog"
+---
+{% include setup %}
+
+<ul>
+  {% for post in site.posts %}
+    <li><a href="{{ post.url }}">{{post.title}}</a> {{ post.date | date: "<small style='color: gray;'>(%b. %d, %Y)</small>"}}</li>
+  {% endfor %}
+</ul>
